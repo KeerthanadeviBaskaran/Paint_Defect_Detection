@@ -51,8 +51,6 @@ Decision Tree Classifier  ←── Core technique
 Random Forest (optional improvement)
    ↓
 Evaluate on unseen images
-   ↓
-(For Deployment)Gradio Web App → Upload image → Get defect prediction
 
 ## Results
 
@@ -95,7 +93,7 @@ Along with a **confidence score** for each class (e.g. "Scratches — 87% confid
 ## Project Structure
 
 paint_defect_detection_project/
-├── notebook.ipynb         # main Colab notebook
+├── Paint_Defect_Detection.ipynb # main Colab notebook
 ├── paint_defect_model.pkl # saved Decision Tree / Random Forest model
 ├── class_names.json       # class label names
 └── README.md              # this file
